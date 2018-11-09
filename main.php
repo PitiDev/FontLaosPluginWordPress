@@ -2,7 +2,7 @@
 /*
   Plugin Name: Lao piti Fonts
   Plugin URI: http://piti.laotechtalk.com
-  Description: Plugin ສຳລັບປ່ຽນຟ້ອນໃນເວັບໄຊ້ຂອງທ່ານໃຫ້ໄປໃຊ້ຟ້ອນທີ່ສາມາດສະແດງຜົນກັບພາສາລາວໄດ້ດີ ເຊັ່ນ: Phetsarath OT, Saysettha OT, Noto Sans Ui...
+  Description: Plugin ສຳລັບປ່ຽນຟ້ອນໃນເວັບໄຊ້ຂອງທ່ານ: Phetsarath OT, Noto Sans Ui...
   Version: 1.0.0
   Author: Piti Phanthasombath
   Author URI: http://facebook.com/piti.laos
@@ -58,18 +58,6 @@ function LFS_phetsarath()
 	function LFS_phetsarath_f()
 	{
 		$locate = plugins_url('phetsarath/style.css',__FILE__);
-		wp_register_style( 'lao_fonts',$locate);
-		wp_enqueue_style('lao_fonts');
-	}
-}
-
-
-function LFS_LaoSansPro()
-{
-	add_action('wp_enqueue_scripts','LFS_LaoSansPro_f');
-	function LFS_LaoSansPro_f()
-	{
-		$locate = plugins_url('Lao_Sans_Pro/style.css',__FILE__);
 		wp_register_style( 'lao_fonts',$locate);
 		wp_enqueue_style('lao_fonts');
 	}

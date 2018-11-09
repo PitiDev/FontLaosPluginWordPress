@@ -32,10 +32,6 @@ if($chosen->option_value === "phetsarath")
 {
 	$fname = "Phetsarath OT";
 }
-else if($chosen->option_value === "LaoSansPro")
-{
-	$fname = "Lao Sans Pro";
-}
 
 else if($chosen->option_value === "NotoSerifLao")
 	$fname = "Noto Serif Lao";
@@ -60,7 +56,6 @@ else if($chosen->option_value === "NotoSerifLao")
 			<select style="font-size:18px;width:300px;" name="LFS_fonts" id="LFS_fonts">
 				<option value="phetsarath">Phetsarath OT</option>
 				<option value="NotoSerifLao">Noto Sane Lao</option>
-				<option value="LaoSansPro">Lao Sans Pro</option>
 			</select>
 		</td>
 	<tr>
